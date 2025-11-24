@@ -1,1 +1,2 @@
-Media Player on Command Line Interface
+Sistim informasi penangkal jin dan makhluk halus berbasis Command Line Interface(CLI) menggunakan virtual machine.
+awokwaowkoakw
