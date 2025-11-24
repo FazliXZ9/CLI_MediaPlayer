@@ -1,3 +1,4 @@
+
 import pygame
 import os
 import time
@@ -5,7 +6,7 @@ import threading
 from datetime import datetime
 
 START_TIME = "06:50"
-END_TIME   = "15:40"
+END_TIME   = "19:40"
 
 command = None
 running = True
@@ -33,7 +34,7 @@ def input_listener():
 def main():
     global command, running
     
-    pygame.mixer.init(frequency=44100)
+    pygame.mixer.init(frequency=48000, size=-16, channels=2, buffer=4096)
     music_dir = "."
     
     playlist = [f for f in os.listdir(music_dir) if f.endswith('.mp3')]
